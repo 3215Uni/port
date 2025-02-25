@@ -225,7 +225,32 @@ th li {
   display:none
   
 }
+
+@media screen and (max-width: 700px) {
+  .logo{
+    width: 50%;   
+  }
+  .iconNav{
+    width: 33%;
+  }
+  .filtro {
+    display: block; 
+  }
+  
  
+  th,th li{
+    font-size: 8px; 
+  }
+  .car div ul{
+    margin-left: -25%;
+    
+  }
+  .car div ul li a{
+    font-size: 8px;    
+  } 
+}
+
+/*  */
 /*******************************************************************************************************
 FOOTER
 *******************************************************************************************************/

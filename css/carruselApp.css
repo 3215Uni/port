@@ -96,10 +96,10 @@ body::before{
     }
     
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 700px) {
     .appNa .slider{
         width: 100px;
-        height: 150px;
+        height: 145px;
         left: calc(50% - 50px);
     }
     .appNa .slider .item{
@@ -110,4 +110,5 @@ body::before{
     .appNa .content h1{
         font-size: 5em;
     }
+    
 }
